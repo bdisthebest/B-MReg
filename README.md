@@ -1,4 +1,4 @@
-# Alexander & Isabella Wedding Website
+# Brennan & Michèle Wedding Website
 
 A polished, production-ready wedding website and gift registry built with Next.js, TypeScript, Tailwind CSS, and Framer Motion. The site includes an elegant landing experience, story timeline, registry cards, event details, travel guidance, FAQ, and contact details.
 
