@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const isGitHubActionsBuild = process.env.GITHUB_ACTIONS === "true" && process.env.NODE_ENV === "production";
-const repoName = "B-MReg";
+const repoName = process.env.REPO_NAME ?? process.env.GITHUB_REPOSITORY?.split("/")[1] ?? "B-MReg";
 
 const nextConfig: NextConfig = {
   output: "export",
