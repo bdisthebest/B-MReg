@@ -1,0 +1,14 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="36" fill="url(#paint0_linear)"/>
+  <path d="M211 251C211 191.906 258.906 144 318 144H882C941.094 144 989 191.906 989 251V649C989 708.094 941.094 756 882 756H318C258.906 756 211 708.094 211 649V251Z" fill="#FFF7EF" fill-opacity="0.12" stroke="#FFF7EF" stroke-opacity="0.42" stroke-width="4"/>
+  <circle cx="600" cy="432" r="156" fill="#F2D8C8" fill-opacity="0.9"/>
+  <path d="M473 433L562 522L730 354" stroke="#4C685B" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="600" y="798" fill="#FFF7EF" font-family="Cormorant Garamond, serif" font-size="68" font-weight="600" text-anchor="middle">Gallery Photo Three</text>
+  <text x="600" y="852" fill="#FFF7EF" font-family="Manrope, sans-serif" font-size="24" text-anchor="middle" letter-spacing="5">ADD A CANDID SHOT HERE</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="130" y1="108" x2="1075" y2="816" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6F8471"/>
+      <stop offset="1" stop-color="#BE8865"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,14 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="36" fill="url(#paint0_linear)"/>
+  <circle cx="265" cy="240" r="130" fill="#FFF7EF" fill-opacity="0.82"/>
+  <circle cx="860" cy="430" r="220" fill="#F3D1C1" fill-opacity="0.48"/>
+  <path d="M165 612C278.718 495.809 399.019 437.714 525.902 437.714C716.226 437.714 837.733 657.214 1019 657.214" stroke="#FFF7EF" stroke-width="12" stroke-linecap="round"/>
+  <text x="600" y="752" fill="#FFF7EF" font-family="Cormorant Garamond, serif" font-size="70" font-weight="600" text-anchor="middle">Gallery Photo One</text>
+  <text x="600" y="810" fill="#FFF7EF" font-family="Manrope, sans-serif" font-size="24" text-anchor="middle" letter-spacing="5">SWAP THIS WITH A FAVORITE MEMORY</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="133" y1="111" x2="1072" y2="799" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#244137"/>
+      <stop offset="1" stop-color="#C17C5E"/>
+    </linearGradient>
+  </defs>
+</svg>
