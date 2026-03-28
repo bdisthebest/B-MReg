@@ -40,24 +40,14 @@ Update names, dates, locations, story text, FAQ entries, and registry URLs there
 - `src/content/siteContent.ts` – Structured editable content
 - `public/images/*` – Placeholder visual assets for story/gallery sections
 
-## Deploy
+## Deploy (GitHub Pages)
 
-This project can be deployed to Vercel or any Node-compatible host.
+This project is configured for static export and deployment on GitHub Pages.
 
-### Vercel
+### GitHub Pages Setup
 
-1. Push the repository to GitHub
-2. Import the repo in Vercel
-3. Use default Next.js build settings
-4. Deploy
+1. In your repository, go to **Settings → Pages**.
+2. Set **Source** to **GitHub Actions**.
+3. Ensure the included workflow (`.github/workflows/deploy-github-pages.yml`) is present; it builds and deploys `out/` to Pages.
 
-### Other Platforms
-
-Use:
-
-```bash
-npm run build
-npm run start
-```
-
-and serve the app on your chosen platform.
+The Next.js config already uses static export (`output: "export"`) and applies the repo base path for production GitHub Actions builds.
