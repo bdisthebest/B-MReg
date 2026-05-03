@@ -69,22 +69,22 @@ const siteContent = {
     {
       question: "Can I bring a plus-one?",
       answer:
-        "Please refer to your invitation for the number of guests included in your party. If you have questions, reach out to us directly.",
+        "Short answer, no. If you are invited, it means you are important to us. ",
     },
     {
       question: "What should I wear?",
       answer:
-        "The current sample dress code is black tie optional, but you can replace this answer with the exact attire guidance for your event.",
+        "The church wedding on July 6th is a black tie event. The traditional african ceremony is on July 7th. If you are uncertain as to what this entails, see our personal designers instagram @draempstudios, or contact on whatsapp for purchase +234 807 915 0726",
     },
     {
       question: "Are children invited?",
       answer:
-        "This sample answer can be updated with your preference, whether the event is adults-only or open to children and families.",
+        "There are children that we have included on the invitation. If they were not included on the invitation, please reach out to us.",
     },
     {
       question: "When should I RSVP by?",
       answer:
-        "Add your RSVP deadline here so guests know when to respond. A date about four to six weeks before the wedding is common.",
+        "If you are wanting accomdation, RSVP and payment is required by April 1st 2027. If no accomodation is required, RSVP is by May 15th 2027",
     },
   ],
 };
