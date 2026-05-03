@@ -55,14 +55,14 @@ const siteContent = {
       amount: "Any amount",
       description:
         "Help us create unforgettable moments on our honeymoon, from special dinners to excursions.",
-      link: "https://example.com/honeymoon-fund",
+      link: "https://paypal.me/BMwedding2027",
     },
     {
       title: "Home Sweet Home Fund",
       amount: "Any amount",
       description:
         "Contribute toward the finishing touches that will help us make our home warm and welcoming.",
-      link: "https://example.com/home-fund",
+      link: "https://paypal.me/BMwedding2027",
     },
   ],
   faqs: [
