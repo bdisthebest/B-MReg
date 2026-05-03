@@ -345,6 +345,20 @@
                     </label>
                   </div>
                 </div>
+                <div class="form-row">
+                  <span class="field-label">Will you need stay accomodations?</span>
+                  <div class="radio-group">
+                    <label class="choice-pill">
+                      <input type="radio" name="attendance" value="Joyfully Accepts" required />
+                      <span>Yes, I want to stay on-site</span>
+                    </label>
+                    <label class="choice-pill">
+                      <input type="radio" name="attendance" value="Regretfully Declines" />
+                      <span>No, I will find my own lodging</span>
+                    </label>
+                  </div>
+                </div>
+                
 
                 <div class="form-row">
                   <label for="guest-count">Number of Guests</label>
@@ -395,7 +409,7 @@
             <div class="rsvp-layout">
               <div class="rsvp-copy">
                 <div class="info-card">
-                  <h3>How this RSVP works</h3>
+                  <h3>The Stay</h3>
                   <p>
                     Since we built this site, submitting the form will open
                     a prefilled email draft addressed to our wedding inbox. 
@@ -404,73 +418,25 @@
                 </div>
 
                 <div class="info-card">
-                  <h3>Special assistance</h3>
+                  <h3>The Investment</h3>
                   <p>
-                    We have been kindly provided the opportunity for guests to stay at the venue location. 
-                    Please indicate in your message to us, if you are interested. It is highly recommended,
-                    but regardless, we will respond to your email with the exact address of the venue and
-                    massively discounted rate of stay. 
+                    The All-Inclusive Guest Package
+                    €370 per person (Covers all 3 nights)
+                    This includes your boutique lodging, daily breakfast, and full access to the villa’s pool and grounds. To secure your room, we kindly ask for payment by April 1st 2027.
+                    Please note: Due to our commitment to the venue, all on-site lodging payments are non-refundable after the payment deadline.
                   </p>
                 </div>
+                <div class="info-card">
+                  <h3>The Logistics</h3>
+                  <p>
+                    For guests staying on-site, complimentary round-trip transportation will be provided for all events taking place away from the villa.
+                    Guests choosing to stay off-site will be responsible for their own transport to and from all events. We recommend booking private car services in advance as local taxis are limited.
+                  </p>
+                </div>
+                
               </div>
 
-              <form
-                class="rsvp-form"
-                data-rsvp-form
-                data-rsvp-email="bdiedr@gmail.com"
-              >
-                <div class="form-row">
-                  <label for="guest-name">Full Name</label>
-                  <input id="guest-name" name="guestName" type="text" required />
-                </div>
-
-                <div class="form-row">
-                  <label for="guest-email">Email Address</label>
-                  <input id="guest-email" name="guestEmail" type="email" required />
-                </div>
-
-                <div class="form-row">
-                  <span class="field-label">Will you be attending?</span>
-                  <div class="radio-group">
-                    <label class="choice-pill">
-                      <input type="radio" name="attendance" value="Joyfully Accepts" required />
-                      <span>Joyfully accepts</span>
-                    </label>
-                    <label class="choice-pill">
-                      <input type="radio" name="attendance" value="Regretfully Declines" />
-                      <span>Regretfully declines</span>
-                    </label>
-                  </div>
-                </div>
-
-                <div class="form-row">
-                  <label for="guest-count">Number of Guests</label>
-                  <input id="guest-count" name="guestCount" type="number" min="1" max="6" value="1" required />
-                </div>
-
-                <div class="form-row">
-                  <label for="meal-choice">Dietary Restriction</label>
-                  <textarea
-                    id="dietary-restriction"
-                    name="dietary-restriction"
-                    rows="1"
-                    placeholder="what can't you eat"
-                    ></textarea>
-                </div>
-
-                <div class="form-row">
-                  <label for="guest-message">Message to the Couple</label>
-                  <textarea
-                    id="guest-message"
-                    name="guestMessage"
-                    rows="5"
-                    placeholder="We can't wait to celebrate with you..."
-                  ></textarea>
-                </div>
-
-                <button class="primary-button" type="submit">Send RSVP</button>
-                <p class="form-note" data-rsvp-status aria-live="polite"></p>
-              </form>
+              
             </div>
           </section>
         </section>
