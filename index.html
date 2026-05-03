@@ -54,6 +54,17 @@
             </button>
             <button
               class="tab-button"
+              id="tab-travel"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="panel-rsvp"
+              data-tab-target="rsvp"
+            >
+              Travel
+            </button>
+            <button
+              class="tab-button"
               id="tab-rsvp"
               type="button"
               role="tab"
@@ -63,6 +74,7 @@
             >
               RSVP
             </button>
+            
           </div>
         </nav>
       </header>
@@ -281,6 +293,103 @@
             <div class="section-heading">
               <p class="eyebrow">RSVP</p>
               <h2>Let us know if you can celebrate with us</h2>
+            </div>
+
+            <div class="rsvp-layout">
+              <div class="rsvp-copy">
+                <div class="info-card">
+                  <h3>How this RSVP works</h3>
+                  <p>
+                    Since we built this site, submitting the form will open
+                    a prefilled email draft addressed to our wedding inbox. 
+                    Simply fill out the sections, click send RSVP, and then send the email that this site directs you to. 
+                  </p>
+                </div>
+
+                <div class="info-card">
+                  <h3>Special assistance</h3>
+                  <p>
+                    We have been kindly provided the opportunity for guests to stay at the venue location. 
+                    Please indicate in your message to us, if you are interested. It is highly recommended,
+                    but regardless, we will respond to your email with the exact address of the venue and
+                    massively discounted rate of stay. 
+                  </p>
+                </div>
+              </div>
+
+              <form
+                class="rsvp-form"
+                data-rsvp-form
+                data-rsvp-email="bdiedr@gmail.com"
+              >
+                <div class="form-row">
+                  <label for="guest-name">Full Name</label>
+                  <input id="guest-name" name="guestName" type="text" required />
+                </div>
+
+                <div class="form-row">
+                  <label for="guest-email">Email Address</label>
+                  <input id="guest-email" name="guestEmail" type="email" required />
+                </div>
+
+                <div class="form-row">
+                  <span class="field-label">Will you be attending?</span>
+                  <div class="radio-group">
+                    <label class="choice-pill">
+                      <input type="radio" name="attendance" value="Joyfully Accepts" required />
+                      <span>Joyfully accepts</span>
+                    </label>
+                    <label class="choice-pill">
+                      <input type="radio" name="attendance" value="Regretfully Declines" />
+                      <span>Regretfully declines</span>
+                    </label>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <label for="guest-count">Number of Guests</label>
+                  <input id="guest-count" name="guestCount" type="number" min="1" max="6" value="1" required />
+                </div>
+
+                <div class="form-row">
+                  <label for="meal-choice">Dietary Restriction</label>
+                  <textarea
+                    id="dietary-restriction"
+                    name="dietary-restriction"
+                    rows="1"
+                    placeholder="what can't you eat"
+                    ></textarea>
+                </div>
+
+                <div class="form-row">
+                  <label for="guest-message">Message to the Couple</label>
+                  <textarea
+                    id="guest-message"
+                    name="guestMessage"
+                    rows="5"
+                    placeholder="We can't wait to celebrate with you..."
+                  ></textarea>
+                </div>
+
+                <button class="primary-button" type="submit">Send RSVP</button>
+                <p class="form-note" data-rsvp-status aria-live="polite"></p>
+              </form>
+            </div>
+          </section>
+        </section>
+
+        <section
+          class="tab-panel"
+          id="panel-travel"
+          role="tabpanel"
+          aria-labelledby="tab-travel"
+          data-tab-panel="travel"
+          hidden
+        >
+          <section class="content-section travel-section reveal">
+            <div class="section-heading">
+              <p class="eyebrow">Travel</p>
+              <h2>Travel Location and Accomodation offer</h2>
             </div>
 
             <div class="rsvp-layout">
