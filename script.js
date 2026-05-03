@@ -69,17 +69,17 @@ const siteContent = {
     {
       question: "Can I bring a plus-one?",
       answer:
-        "Short answer, no. If you are invited, it means you are important to us. ",
+        "Short answer, no. Your invitation delineates most expected plus ones by name.",
     },
     {
       question: "What should I wear?",
       answer:
-        "The church wedding on July 6th is a black tie event. The traditional african ceremony is on July 7th. If you are uncertain as to what this entails, see our personal designers instagram @draempstudios, or contact on whatsapp for purchase +234 807 915 0726",
+        "Both events on July 6th are black tie events. The traditional african ceremony is on July 7th. See our personal designer's instagram @draempstudios for attire ideas, and contact him to purchase custom attire +234 807 915 0726.",
     },
     {
       question: "Are children invited?",
       answer:
-        "There are children that we have included on the invitation. If they were not included on the invitation, please reach out to us.",
+        "If they were not included on the invitation, they are generally not invited. If you feel this is an error, please reach out to us.",
     },
     {
       question: "When should I RSVP by?",
