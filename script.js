@@ -69,7 +69,7 @@ const siteContent = {
     {
       question: "Can I bring a plus-one?",
       answer:
-        "Short answer, no. Your invitation delineates most expected plus ones by name.",
+        "We are unable to accommodate additional guests. Each attendee has been accounted for specifically, and all invitations are being sent individually.",
     },
     {
       question: "What should I wear?",
@@ -79,12 +79,12 @@ const siteContent = {
     {
       question: "Are children invited?",
       answer:
-        "If they were not included on the invitation, they are generally not invited. If you feel this is an error, please reach out to us.",
+        "If they are not listed on the invitation, they are not included. Please contact us if you believe this is an error",
     },
     {
       question: "When should I RSVP by?",
       answer:
-        "If you are wanting accomdation, RSVP and payment is required by April 1st 2027. If no accomodation is required, RSVP is by May 15th 2027",
+        "For those requiring accommodation, RSVP and payment are due by April 1, 2027. All other guests must RSVP by May 15, 2027.",
     },
   ],
 };
