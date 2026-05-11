@@ -1,52 +1,36 @@
 const siteContent = {
   registryProducts: [
     {
-      title: "Stoneware Dinnerware Set",
-      price: "$185",
-      category: "Dining",
+      title: "Crate & Barrel Registry",
+      price: "Follow Link",
+      category: "Assorted",
       description:
-        "A timeless everyday dinnerware set for cozy weeknight meals and celebration dinners alike.",
-      link: "https://example.com/stoneware-dinnerware-set",
+        "Click the link to see what we have listed on our Crate & Barrel Registry",
+      link: "https://www.crateandbarrel.com/gift-registry/dolly-michele-and-brennan-diedrich/r7555011",
     },
     {
-      title: "Linen Bedding Bundle",
-      price: "$240",
-      category: "Home",
+      title: "West Elm Registry",
+      price: "Follow Link",
+      category: "Assorted",
       description:
-        "A soft, breathable bedding upgrade that makes the bedroom feel calm, warm, and inviting.",
-      link: "https://example.com/linen-bedding-bundle",
+        "Click the link to see what we have listed on our West Elm Registry",
+      link: "https://www.westelm.com/registry/28wbgvmhws/registry-list.html",
     },
     {
-      title: "Espresso Machine",
-      price: "$329",
-      category: "Kitchen",
+      title: "Smart Indoor Hydroponic Garden",
+      price: "$899",
+      category: "Plants",
       description:
-        "A coffee-bar favorite for slow weekend mornings and hosting friends after dinner.",
-      link: "https://example.com/espresso-machine",
+        "The only smart indoor hydroponic garden that grows 30 fresh vegetables, herbs, and greens in 2 sq ft. 24/7 plant monitoring and automated watering and lighting keep them thriving.",
+      link: "https://mygardyn.com/product/gardyn-home-kit/?utm_source=google&utm_medium=cpc&utm_campaign=&utm_id=23682332535&utm_term=&utm_content=&nbt=nb%3Aadwords%3Ax%3A23682332535%3A%3A&nb_adtype=pla&nb_kwd=&nb_ti=&nb_mi=277479155&nb_pc=online&nb_pi=lniyzqjr&nb_ppi=&nb_placement=&nb_li_ms=&nb_lp_ms=&nb_fii=&nb_ap=&nb_mt=&utm_term=&utm_campaign=US_PMax_HM&utm_source=adwords&utm_medium=ppc&hsa_acc=2604927837&hsa_cam=23682332535&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=23692433272&gbraid=0AAAAACakiZ8B3YKjv2wpl5frWW8-D4ebU",
     },
     {
-      title: "Carry-On Luggage Set",
-      price: "$210",
-      category: "Travel",
+      title: "Floor Lamp",
+      price: "$155",
+      category: "Home-Decor",
       description:
-        "A sleek travel set that is perfect for honeymoon flights and future getaways together.",
-      link: "https://example.com/carry-on-luggage-set",
-    },
-    {
-      title: "Dutch Oven",
-      price: "$160",
-      category: "Kitchen",
-      description:
-        "A versatile kitchen staple for comforting meals, celebrations, and everything in between.",
-      link: "https://example.com/dutch-oven",
-    },
-    {
-      title: "Patio String Lights",
-      price: "$74",
-      category: "Outdoor",
-      description:
-        "Soft lighting to help turn outdoor dinners and late-night conversations into favorite memories.",
-      link: "https://example.com/patio-string-lights",
+        "When a room calls for understated modernism, this floor lamp answers with the perfect balance of minimalism and statement-making design. The energy-efficient built-in LEDs cast a warm glow from the slim line bar base. Finished with a classic silk-wrapped cord, as beautiful displayed as hidden.",
+      link: "https://www.allmodern.com/AllModern--Juaquin-59.5-LED-Novelty-Floor-Lamp-X116172449-L6238-K~ORNL1552.html",
     },
   ],
   cashFunds: [
