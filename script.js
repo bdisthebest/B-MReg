@@ -58,7 +58,7 @@ const siteContent = {
     {
       question: "What should I wear?",
       answer:
-        "Both events on July 6th are black tie events. The traditional african ceremony is on July 7th. See our personal designer's instagram @draempstudios for attire ideas, and contact him to purchase custom attire +234 807 915 0726.",
+        "Both events on June 28th are black tie events. The traditional african ceremony is on June 29th. See our personal designer's instagram @draempstudios for attire ideas, and contact him to purchase custom attire +234 807 915 0726.",
     },
     {
       question: "Are children invited?",
