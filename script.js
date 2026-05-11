@@ -202,7 +202,7 @@ function handleRsvpSubmit(event) {
 
   const formData = new FormData(rsvpForm);
   const attendance = formData.get("attendance");
-  cont accom = formData.get("accomodation");
+  const accom = formData.get("accomodation");
   const guestName = formData.get("guestName");
   const guestEmail = formData.get("guestEmail");
   const guestCount = formData.get("guestCount");
