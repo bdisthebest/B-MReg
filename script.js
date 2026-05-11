@@ -82,6 +82,7 @@ const faqContainer = document.querySelector("#faq-list");
 const rsvpForm = document.querySelector("[data-rsvp-form]");
 const rsvpStatus = document.querySelector("[data-rsvp-status]");
 const attendanceInputs = Array.from(document.querySelectorAll('input[name="attendance"]'));
+const accomodationInputs = Array.from(document.querySelectorAll('input[name="accomodation"]'));
 const guestCountInput = document.querySelector("#guest-count");
 const mealChoiceInput = document.querySelector("#meal-choice");
 
@@ -201,6 +202,7 @@ function handleRsvpSubmit(event) {
 
   const formData = new FormData(rsvpForm);
   const attendance = formData.get("attendance");
+  cont accom = formData.get("accomodation");
   const guestName = formData.get("guestName");
   const guestEmail = formData.get("guestEmail");
   const guestCount = formData.get("guestCount");
@@ -212,6 +214,7 @@ function handleRsvpSubmit(event) {
     `Name: ${guestName}`,
     `Email: ${guestEmail}`,
     `Attendance: ${attendance}`,
+    'Accomodation: ${accomodation}',
     `Guest Count: ${attendance === "Regretfully Declines" ? "Not attending" : guestCount}`,
     `Meal Choice: ${attendance === "Regretfully Declines" ? "Not applicable" : mealChoice}`,
     "",
