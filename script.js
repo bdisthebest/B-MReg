@@ -82,7 +82,6 @@ const faqContainer = document.querySelector("#faq-list");
 const rsvpForm = document.querySelector("[data-rsvp-form]");
 const rsvpStatus = document.querySelector("[data-rsvp-status]");
 const attendanceInputs = Array.from(document.querySelectorAll('input[name="attendance"]'));
-const accomodationInputs = Array.from(document.querySelectorAll('input[name="accomodation"]'));
 const guestCountInput = document.querySelector("#guest-count");
 const mealChoiceInput = document.querySelector("#meal-choice");
 
