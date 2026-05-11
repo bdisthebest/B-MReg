@@ -5,7 +5,7 @@ const siteContent = {
       price: "Follow Link",
       category: "Assorted",
       description:
-        "Click the link to see what we have listed on our Crate & Barrel Registry",
+        "Click the link to see what we have listed on our Crate & Barrel Registry. The View Gift button below will direct you straight to the registry on the Crate & Barrel webiste.",
       link: "https://www.crateandbarrel.com/gift-registry/dolly-michele-and-brennan-diedrich/r7555011",
     },
     {
@@ -13,7 +13,7 @@ const siteContent = {
       price: "Follow Link",
       category: "Assorted",
       description:
-        "Click the link to see what we have listed on our West Elm Registry",
+        "Click the link to see what we have listed on our West Elm Registry. The View Gift button below will direct you straight to the registry on the West Elm webiste",
       link: "https://www.westelm.com/registry/28wbgvmhws/registry-list.html",
     },
     {
