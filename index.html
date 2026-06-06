@@ -373,14 +373,24 @@
                   </div>
                 </div>
                 <div class="form-row">
-                  <span class="field-label">Will you need stay accomodations?</span>
+                  <span class="field-label">Will you need stay accommodations?</span>
                   <div class="radio-group">
                     <label class="choice-pill">
-                      <input type="radio" name="attendance" value="Joyfully Accepts" required />
+                      <input
+                        type="radio"
+                        name="lodgingSelection"
+                        value="Yes, I want to stay on-site"
+                        required
+                      />
                       <span>Yes, I want to stay on-site</span>
                     </label>
+                
                     <label class="choice-pill">
-                      <input type="radio" name="attendance" value="Regretfully Declines" />
+                      <input
+                        type="radio"
+                        name="lodgingSelection"
+                        value="No, I will find my own lodging"
+                      />
                       <span>No, I will find my own lodging</span>
                     </label>
                   </div>
@@ -389,7 +399,16 @@
 
                 <div class="form-row">
                   <label for="guest-count">Number of Guests</label>
-                  <input id="guest-count" name="guestCount" type="number" min="1" max="2" value="1" required />
+                  <input
+                    id="guest-count"
+                    name="guestCount"
+                    type="number"
+                    min="1"
+                    max="1"
+                    value="1"
+                    readonly
+                    required
+                  />
                 </div>
 
                 <div class="form-row">
