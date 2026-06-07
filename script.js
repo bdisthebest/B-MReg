@@ -83,7 +83,8 @@ const rsvpForm = document.querySelector("[data-rsvp-form]");
 const rsvpStatus = document.querySelector("[data-rsvp-status]");
 const attendanceInputs = Array.from(document.querySelectorAll('input[name="attendance"]'));
 const guestCountInput = document.querySelector("#guest-count");
-const mealChoiceInput = document.querySelector("#meal-choice");
+const dietaryRestrictionInput = document.querySelector("#dietary-restriction");
+
 
 function renderRegistry() {
   registryContainer.innerHTML = siteContent.registryProducts
@@ -188,11 +189,12 @@ function syncAttendanceFields() {
   const attending = selectedAttendance !== "Regretfully Declines";
 
   guestCountInput.disabled = !attending;
-  mealChoiceInput.disabled = !attending;
+  dietaryRestrictionInput.disabled = !attending;
+
+  guestCountInput.value = "1";
 
   if (!attending) {
-    guestCountInput.value = "1";
-    mealChoiceInput.value = "Chicken";
+    dietaryRestrictionInput.value = "";
   }
 }
 
@@ -201,23 +203,25 @@ function handleRsvpSubmit(event) {
 
   const formData = new FormData(rsvpForm);
   const attendance = formData.get("attendance");
+  const lodgingSelection = formData.get("lodgingSelection");
   const guestName = formData.get("guestName");
   const guestEmail = formData.get("guestEmail");
   const guestCount = formData.get("guestCount");
-  const mealChoice = formData.get("mealChoice");
+  const dietaryRestriction = formData.get("dietary-restriction") || "None listed.";
   const guestMessage = formData.get("guestMessage") || "No additional message.";
   const recipientEmail = rsvpForm.dataset.rsvpEmail;
 
   const lines = [
-    `Name: ${guestName}`,
-    `Email: ${guestEmail}`,
-    `Attendance: ${attendance}`,
-    `Guest Count: ${attendance === "Regretfully Declines" ? "Not attending" : guestCount}`,
-    `Meal Choice: ${attendance === "Regretfully Declines" ? "Not applicable" : mealChoice}`,
-    "",
-    "Message:",
-    guestMessage,
-  ];
+  `Name: ${guestName}`,
+  `Email: ${guestEmail}`,
+  `Attendance: ${attendance}`,
+  `Guest Count: ${attendance === "Regretfully Declines" ? "Not attending" : guestCount}`,
+  `Lodging Selection: ${attendance === "Regretfully Declines" ? "Not applicable" : lodgingSelection}`,
+  `Dietary Restriction: ${attendance === "Regretfully Declines" ? "Not applicable" : dietaryRestriction}`,
+  "",
+  "Message:",
+  guestMessage,
+];
 
   const subject = encodeURIComponent(`Wedding RSVP from ${guestName}`);
   const body = encodeURIComponent(lines.join("\n"));
